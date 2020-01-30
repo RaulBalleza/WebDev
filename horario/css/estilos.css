@@ -1,0 +1,46 @@
+table{
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	border-collapse: collapse;
+	text-transform: capitalize;
+}
+td, th{
+	border: 1px solid #dddddd;
+	padding: 8px;
+	font-size: 12;
+}
+
+.materia{
+	font-family: Georgia;
+}
+
+.encabezado{
+	font-family: monospace;
+	font-style: italic;
+}
+
+.ingles{
+	background-color: rgb(230, 9, 9);
+}
+.mineria{
+	background-color: rgba(5, 20, 149, 0.794);
+}
+.proyectos{
+	background-color: rgba(240, 10, 140, 0.842);
+}
+.negocios{
+	background-color: rgba(10, 160, 10, 0.712);
+}
+.graficacion{
+	background-color: rgba(120, 128, 129, 0.514);
+}
+.web{
+	background-color: rgba(0,80,190,0.4);
+}
+.administracion{
+	background-color: rgba(255,165,0,0.4);
+}
+
+.receso{
+	text-transform: uppercase;
+}

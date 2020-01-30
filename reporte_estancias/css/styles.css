@@ -1,0 +1,45 @@
+body{
+    width: 50%;
+    margin:auto;
+    background-color:orange;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-color: gray;
+    text-align: center;
+}
+
+.header{
+    padding: 5px;
+}
+
+aside{
+    width: 40%;
+}
+
+.section{
+    display: flex;
+}
+
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+}
+
+.row{
+    width: 100%;
+}
+.name{
+    margin: auto;
+    color: white;
+    font-size: x-large;
+}
+
+.photo{
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+}
