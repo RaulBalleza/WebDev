@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+/*.container - Cuerpo de la calculadora*/
+.container{
+    background-color:rgb(66, 66, 73);
+    height: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+/*.calculadora - Contenido de la calculadora*/
+.calculadora{
+    width: 100%;
+}
+
+/*.pantalla - Pantalla de la calculadora*/
+.pantalla{
+    border: 3px solid black;
+    background-color:rgb(33, 105, 35);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*.resultado - Texto dentro de la pantalla*/
+.resultado{
+    text-align: end;
+    padding-right: 5px;
+}
+/*.botones - Botones de la calculadora*/
+.botones{
+    width: 100%;
+}
+
+.numeros, .operaciones{
+    width: 100%;
+    margin: auto;
+}
+
+.botones button{
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+
+/*.numeros - Botones de numeros*/
+.botones .numeros button{
+    background-color: rgb(250, 91, 0);
+}
+
+/*.operaciones - Botones de operaciones*/
+.botones .operaciones button{
+    background-color: rgb(224, 121, 56);
+}
+
+/*.logo - Imagen de encima de la pantalla*/
+.logo{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.logo-img{
+    width: 40%;
+}
+
+/*Clases resposivas*/
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+}

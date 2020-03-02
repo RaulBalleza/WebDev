@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+}
+
+.container{
+    color: white;
+}
+
+/*.factorial, .fibonacci, .form-group*/
+.factorial, .fibonacci{
+    padding: 40px;
+    text-align: center;
+}
+
+.factorial .form-group button{
+    background-color:#007DFF;
+}
+
+.fibonacci .form-group button{
+    background-color:rgb(253, 0, 177);
+}
+
+/*.factorial*/
+.factorial{
+    background-color: #FF8200;
+}
+
+/*.fibonacci*/
+.fibonacci{
+    background-color: rgb(110, 3, 114);
+}
+
+/*.form-group*/
+.form-group input{
+    border-radius: 50px;
+    margin: 8px;
+    padding: 8px;
+    border: 2px solid black;
+
+}
+
+.form-group button{
+    border-radius: 50px;
+    margin: 8px;
+    padding: 8px;
+    border: 2px solid wheat;
+}
+
+/*.resultado*/
+.resultado{
+    margin: 8px;
+    padding: 8px;
+}
